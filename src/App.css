@@ -1,5 +1,5 @@
 #root {
-  background-color: #909090;
+  background-color: #eee;
   height: 100%;
 }
 
@@ -23,4 +23,8 @@
 
 .contact-submit {
   margin-top: 3%;
+}
+
+.homepage {
+  padding-left: 6%
 }

@@ -15,7 +15,7 @@ class BookingCalendar extends Component {
 
   render () {
     return (
-      <div className="page">
+      <div className='page'>
         <h1>Booking Calendar</h1>
 
         <Calendar
@@ -28,7 +28,7 @@ class BookingCalendar extends Component {
         </div>
 
       </div>
-    )
+    );
   }
 }
 

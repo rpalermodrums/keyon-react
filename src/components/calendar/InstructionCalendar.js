@@ -10,12 +10,12 @@ class InstructionCalendar extends Component {
   @observable date = null
 
   handleSelect (date) {
-    this.date = date.format('dddd, MMMM Do YYYY')
+    this.date = date.format('dddd, MMMM Do YYYY');
   }
 
   render () {
     return (
-      <div className="page">
+      <div className='page'>
         <h1>Instruction Calendar</h1>
 
         <Calendar
@@ -28,7 +28,7 @@ class InstructionCalendar extends Component {
         </div>
 
       </div>
-    )
+    );
   }
 }
 

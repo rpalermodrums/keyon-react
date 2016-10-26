@@ -4,17 +4,17 @@ import AppConstants from '../constants/AppConstants';
 import Axios from 'axios';
 
 const {
-  GET_SONGS_URL,
+  GET_GIGS_URL,
 } = AppConstants;
 
 @autobind
-class SongStore {
+class GigStore {
 
   @action
   async retrieve () {
-    const songs = await Axios.get(GET_SONGS_URL);
-    return songs.data.recordings;
+    const response = await Axios.get(GET_GIGS_URL);
+    return response.data.gigs;
   }
 }
 
-export default (new SongStore());
+export default (new GigStore());

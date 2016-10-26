@@ -6,7 +6,7 @@ class TipPage extends Component {
       <div>
         <h1>Tip Page</h1>
       </div>
-    )
+    );
   }
 }
 

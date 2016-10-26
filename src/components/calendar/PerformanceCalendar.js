@@ -4,6 +4,7 @@ import {observable} from 'mobx';
 import {observer} from 'mobx-react';
 import autobind from 'autobind-decorator';
 
+@autobind
 @observer
 class PerformanceCalendar extends Component {
   @observable date = null;
@@ -14,7 +15,7 @@ class PerformanceCalendar extends Component {
 
   render () {
     return (
-      <div className="page">
+      <div className='page'>
         <h1>Performance Calendar</h1>
         <Calendar
           onInit={this.handleSelect}
@@ -26,7 +27,7 @@ class PerformanceCalendar extends Component {
         </div>
 
       </div>
-    )
+    );
   }
 }
 
